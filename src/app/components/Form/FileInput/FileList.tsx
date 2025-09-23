@@ -6,6 +6,7 @@ import { formatBytes } from "@/utils/format-bytes";
 
 export function FileList() {
   const { files } = useFileInput();
+  console.log(files);
 
   return (
     <div className="mt-4 space-y-3">
